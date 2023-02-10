@@ -16,7 +16,7 @@
 </head>
 <style>
     .contact-parent{
-   background: #fff;
+   background:  #fff;
    display:flex;
    margin:80px 0;
 }
@@ -103,10 +103,41 @@
 
    .inside-contact input, .inside-contact textarea{
        background-color:#fff;
+       
    }
 }
+
+ul {
+    position: fixed;
+  top: 0;
+  width: 100%;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #fff;
+}
+
 </style>
-<body>
+<body style="background-color: #1f2029;">
 		
 <div class="ScriptTop">
     <div class="rt-container">
@@ -199,6 +230,12 @@
 </section>
     
     <!-- Analytics -->
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
 
 	</body>
 </html>
